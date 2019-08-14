@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+    <fragment
+            android:name="com.nestorcalvo.fragmentos.SupermanFragment"
+            android:layout_height="match_parent" android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/fragment_sup"
+             tools:ignore="MissingConstraints,Suspicious0dp"/>
+    <fragment
+            android:name="com.nestorcalvo.fragmentos.FlashFragment"
+            android:layout_height="match_parent" android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/fragment_flash"
+            tools:ignore="MissingConstraints,Suspicious0dp"/>
+
+
+</LinearLayout>
