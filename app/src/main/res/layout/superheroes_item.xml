@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_height="100dp">
+
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="80dp" android:layout_height="80dp"
+    android:src="@drawable/superman"
+    android:id="@+id/iFoto"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+    android:layout_height="match_parent" android:layout_width="match_parent"
+    android:text="@string/superman"
+    android:textSize="24sp"
+    android:gravity="center"
+    android:id="@+id/tvnombre"
+    android:fontFamily="sans-serif-black"
+    android:textColor="@android:color/black"/>
+
+
+</LinearLayout>
