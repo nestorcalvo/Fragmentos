@@ -13,13 +13,14 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity android:name=".Main6Activity">
-        </activity>
-        <activity android:name=".ListaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".ListaActivity">
+
         </activity>
         <activity
                 android:name=".Main5Activity"

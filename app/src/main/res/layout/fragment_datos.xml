@@ -5,29 +5,19 @@
               android:orientation="vertical"
               android:padding="8dp"
               android:layout_height="match_parent"
-              tools:context=".FormFragment">
+              tools:context=".DatosFragment">
 
-    >
-    <EditText
+
+    <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="25sp"
-            android:id="@+id/eNombre"
+            android:id="@+id/tvNombre"
             android:text="@string/nombre"/>
-    <EditText
+    <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="25sp"
-            android:id="@+id/eCedula"
-            android:inputType="number"
+            android:id="@+id/tvCedula"
             android:text="@string/cedula"/>
-    <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:id="@+id/bEnviar"
-            android:inputType="number"
-            android:text="@string/enviar"/>
-
-
 </LinearLayout>

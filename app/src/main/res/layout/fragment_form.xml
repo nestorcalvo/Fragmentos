@@ -7,20 +7,20 @@
               android:layout_height="match_parent"
               tools:context=".FormFragment">
 
-    
+
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="25sp"
             android:id="@+id/eNombre"
-            android:text="@string/nombre"/>
+            android:hint="@string/nombre"/>
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="25sp"
             android:id="@+id/eCedula"
             android:inputType="number"
-            android:text="@string/cedula"/>
+            android:hint="@string/cedula"/>
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
