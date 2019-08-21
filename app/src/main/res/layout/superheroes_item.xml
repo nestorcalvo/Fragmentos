@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="100dp">
+<LinearLayout
               android:orientation="horizontal"
               android:layout_width="match_parent"
-              android:padding="10dp"
+              android:padding="5dp"
               android:layout_height="100dp">
 
     <androidx.appcompat.widget.AppCompatImageView android:layout_width="80dp" android:layout_height="80dp"
@@ -20,3 +26,4 @@
 
 
 </LinearLayout>
+</androidx.cardview.widget.CardView>
